@@ -1,7 +1,7 @@
 class LineObj:
 
     def __init__(self, s):
-        s.rstrip()
+        s = s.rstrip()
         p = s.index('.')
         if p < 0:
             print(s)
