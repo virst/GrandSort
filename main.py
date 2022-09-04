@@ -3,7 +3,7 @@ import time
 from generator import make_file
 from sorter import split_file, merge_files
 
-size = 10_000
+size = 300_000
 part = int(size/10)
 
 start_time = time.time()
