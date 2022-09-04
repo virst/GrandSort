@@ -15,7 +15,8 @@ def get_random_string_list(length):
 
 
 def make_file(length):
-    str_list = get_random_string_list(int(length / 10))
+    #str_list = get_random_string_list(int(length / 10))
+    str_list = get_random_string_list(1000)
     fn = "L" + str(length) + ".txt"
     f = open(fn, 'w')
     for i in range(length):
